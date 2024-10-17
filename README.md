@@ -137,7 +137,7 @@ EDGES = {
 }
 
 
-    ```
+ ```
 
 ```bash
     def draw_connections(frame, keypoints, edges, confidence_threshold):
@@ -165,4 +165,4 @@ EDGES = {
             cv2.line(frame, (int(x1), int(y1)), (int(x2), int(y2)), (255, 0, 0), 2)
 
 
-    ```
+```
