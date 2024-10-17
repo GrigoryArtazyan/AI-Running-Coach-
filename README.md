@@ -1,6 +1,9 @@
 # AI Running Coach: Based on MoveNet Refined
 This project is a webcam-based AI running coach that uses TensorFlow and OpenCV for keypoint detection. It provides real-time feedback on running posture and form.
 
+![Demonstration of Pose Estimation(screenshot_demo_pose_estimation.png)
+
+
 ## Features
 - Real-time keypoint detection using TensorFlow and OpenCV.
 - AI-based posture correction and movement analysis.
