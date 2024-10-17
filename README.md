@@ -14,13 +14,17 @@ This project is a webcam-based AI running coach that uses TensorFlow and OpenCV 
 1. Install and Import Dependencies
 ```bash
     pip install --upgrade pip
-    ```
-    also CPU based model
-   ```bash
+```
+
+also CPU based model
+
+```bash
     !pip install tensorflow==2.4.1 opencv-python matplotlib
-    ```
-   including
-   ```bash
+```
+
+including
+
+```bash
       import tensorflow as tf
       import numpy as np
       from matplotlib import pyplot as plt
