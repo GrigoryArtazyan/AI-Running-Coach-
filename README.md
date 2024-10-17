@@ -9,7 +9,7 @@ This project is a webcam-based AI running coach that uses TensorFlow and OpenCV 
 ## Set Up
 
 1. Install and Import Dependencies
-    ```bash
+```bash
     pip install --upgrade pip
     ```
     also CPU based model
@@ -22,13 +22,13 @@ This project is a webcam-based AI running coach that uses TensorFlow and OpenCV 
       import numpy as np
       from matplotlib import pyplot as plt
       import cv2
-    ```
+ ```
    
 2. Load Model
-    ```bash
+ ```bash
    interpreter = tf.lite.Interpreter(model_path='lite-model_movenet_singlepose_lightning_3.tflite')
    interpreter.allocate_tensors()
-   ```
+ ```
 
 3. Make Detections
 ```bash
@@ -90,7 +90,7 @@ cv2.destroyAllWindows()
 
 
 4. Draw Keypoints
-    ```bash
+ ```bash
     pdef draw_keypoints(frame, keypoints, confidence_threshold):
     # Get the dimensions of the frame (height, width, and channels)
     y, x, c = frame.shape
@@ -108,7 +108,7 @@ cv2.destroyAllWindows()
             # Draw a small green circle at the keypoint's (x, y) coordinates on the frame
             cv2.circle(frame, (int(kx), int(ky)), 4, (0, 255, 0), -1)  # Radius 4, filled circle (-1)
 
-    ```
+  ```
 
 4. Draw Edges
 ```bash
